@@ -8,10 +8,10 @@
             <span>4.7</span>
             <div id="review-stars-container">
                 <li id="placeholder-stars">
-                    <img v-for="star in 5" class="reviewstar" src="../assets/reviewstar-placeholder.svg">
+                    <img v-for="_ in 5" class="reviewstar" src="../assets/reviewstar-placeholder.svg">
                 </li>
                 <li id="review-stars">
-                    <img v-for="star in 5" class="reviewstar" src="../assets/reviewstar.svg">
+                    <img v-for="_ in 5" class="reviewstar" src="../assets/reviewstar.svg">
                 </li>
             </div>
             <span>(877)</span>
