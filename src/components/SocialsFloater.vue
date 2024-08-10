@@ -1,7 +1,7 @@
 <template>
     <div id="container">
-        <Icon class="icon margin-bottom" icon="mdi:instagram"></Icon>
-        <Icon class="icon" icon="ic:baseline-facebook"></Icon>
+        <a href="https://www.instagram.com/apucome_hurrah_coffee/"><Icon class="icon margin-bottom" icon="mdi:instagram"></Icon></a>
+        <a href="https://www.facebook.com/apucome/"><Icon class="icon" icon="ic:baseline-facebook"></Icon></a>
     </div>
 </template>
 

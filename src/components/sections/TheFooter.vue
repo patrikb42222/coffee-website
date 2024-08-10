@@ -1,33 +1,6 @@
 <template>
     <footer>
-        <section id="links">
-            <div>
-                <h2>Sitemap</h2>
-                <a>Home</a>
-                <a>Dishes</a>
-                <a>Drinks</a>
-                <a></a>
-            </div>
-            <div>
-                <h2>d</h2>
-                <a></a>
-                <a></a>
-                <a></a>
-            </div>
-            <div>
-                <h2></h2>
-                <a></a>
-                <a></a>
-                <a></a>
-            </div>
-            <div>
-                <h2>Other</h2>
-                <a>Privacy</a>
-                <a>Terms & Service</a>
-                <a></a>
-            </div>
-        </section>
-        <span id="copyright">© 2024 Coffee Shop Co. All rights reserved. | Privacy Policy | Terms of Service</span>
+        <span id="copyright">© 2024 Apucome All rights reserved</span>
     </footer>
 </template>
 
@@ -36,7 +9,8 @@ footer {
     display: flex;
     flex-direction: column;
 
-    padding: 2rem;
+    margin-top: 10rem;
+    padding: 0.5rem 0rem;
     background-color: black;
 }
 
@@ -49,6 +23,6 @@ a {
 }
 
 #copyright {
-    margin: 2rem auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 </style>

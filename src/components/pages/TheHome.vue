@@ -24,7 +24,7 @@ export default {
     <SocialsFloater></SocialsFloater>
     <TheHero></TheHero>
     <TheWhat></TheWhat>
-    <BaseTitle>Kávézóink</BaseTitle>
+    <BaseTitle id="kavezoink">Kávézóink</BaseTitle>
     <LocationsSection></LocationsSection>
     <BaseTitle>Választék</BaseTitle>
     <ItemsGrid></ItemsGrid>

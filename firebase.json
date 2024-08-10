@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "coffee-hungariq",
     "public": "dist",
     "ignore": [
       "firebase.json",

@@ -2,28 +2,28 @@
     <section>
         <div :class="{ 'mobile-container': isMobile, 'desktop-container': !isMobile }">
             <div :class="{ half: isMobile }" class="cell">
-                <h2>Shake</h2>
-                <img class="image" src="../../assets/smoothie.jpg">
+                <h2>Pékáruk & Szendvicsek</h2>
+                <img class="image" src="../../assets/pastries.jpg">
             </div>
             <div :class="{ half: isMobile }" class="cell">
-                <h2>Rágcsálnivalók</h2>
-                <img class="image" src="../../assets/croissant.jpg">
+                <h2>Pizza</h2>
+                <img class="image" src="../../assets/pizza.jpg">
             </div>
             <div :class="{ half: isMobile }"class="cell">
                 <h2>Jeges italok</h2>
-                <img class="image" src="../../assets/ice.jpg">
+                <img class="image" src="../../assets/iced-drink.jpg">
             </div>
             <div :class="{ half: isMobile }" class="cell">
-                <h2>Tea</h2>
-                <img class="image" src="../../assets/tea.jpg">
+                <h2>Saláták</h2>
+                <img class="image" src="../../assets/salads.jpg">
             </div>
             <div :class="{ half: isMobile }" class="cell">
                 <h2>Kávé</h2>
                 <img class="image" src="../../assets/coffee.jpg">
             </div>
             <div :class="{ half: isMobile }" class="cell">
-                <h2>Limonádé</h2>
-                <img class="image" src="../../assets/lemonade.jpg">
+                <h2>Desszert</h2>
+                <img class="image" src="../../assets/sweets.jpg">
             </div>
         </div>
     </section>

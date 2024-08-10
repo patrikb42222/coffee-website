@@ -18,10 +18,11 @@ export default {
 
 <template>
     <section>
-        <img src="../../assets/coffee shop.jpg">
+        <img src="../../assets/coffee shop community.jpg">
         <div :class="{'desktop-content': !isMobile, 'mobile-content': isMobile}">
-            <h1>Coffee shop</h1>
-            <h2>Egy igényes kávézó, kellemes atmoszférával és közösséggel</h2>
+            <h1>Apucome</h1>
+            <h2>Egy igényes kávézó- és nasizó, kellemes atmoszférával és közösséggel</h2>
+
             <TheRatings></TheRatings>
         </div>
     </section>
@@ -41,8 +42,9 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 50% 30%;
 
-    filter: brightness(0.75);
+    filter: brightness(0.8);
 }
 
 .desktop-content {
@@ -74,5 +76,12 @@ h1 {
 h2 {
     background-color: rgb(213, 148, 26);
     width: fit-content;
+}
+
+#the-ratings-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 </style>
